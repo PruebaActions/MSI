@@ -22,4 +22,4 @@ jobs:
       - name: Building MSI
         shell: powershell
         run: |
-          & "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.com" MSI.vdproj /build "Release"
+          & "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.com" ./MSI.vdproj /build "Release"
