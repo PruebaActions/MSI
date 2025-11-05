@@ -18,6 +18,7 @@ Global
 		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Debug|Default.ActiveCfg = Release
 		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Debug|Default.Build.0 = Release
 		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Release|Default.ActiveCfg = Release
+		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Release|Default.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
