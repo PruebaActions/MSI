@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MSI", "MSI\MSI.vdproj", "{5C56EA30-2031-EFA0-F3DD-FCB9336174B3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MSI.Install", "MSI.Install\MSI.Install.vdproj", "{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C56EA30-2031-EFA0-F3DD-FCB9336174B3}.Debug|Default.ActiveCfg = Release
+		{5C56EA30-2031-EFA0-F3DD-FCB9336174B3}.Release|Default.ActiveCfg = Release
+		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Debug|Default.ActiveCfg = Release
+		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Debug|Default.Build.0 = Release
+		{AF2B3BEF-0C5B-2B92-FB61-12FD240A6209}.Release|Default.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60EE5056-B14C-4707-9BDE-BE4B65FD9B5B}
+	EndGlobalSection
+EndGlobal
