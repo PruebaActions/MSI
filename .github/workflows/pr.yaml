@@ -1,0 +1,25 @@
+name: Testing
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  actions: write
+  contents: write
+  security-events: write
+  issues: write
+
+jobs:
+  building:
+    name: Building MSI
+    runs-on: [self-hosted, windows, x64, laptop]
+    steps:
+      - name: Checking out
+        uses: actions/checkout@v4
+
+      - name: Building MSI
+        shell: powershell
+        run: |
+          & "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.com" MSI.vdproj /build "Release"
